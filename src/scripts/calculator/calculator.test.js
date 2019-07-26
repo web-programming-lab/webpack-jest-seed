@@ -1,5 +1,6 @@
 const calculator = require('./calculator');
 
+// 1. Teil
 
 test('should sum two values', () => {
     calculator.read(1, 2);
@@ -10,6 +11,8 @@ test('should mult two values', () => {
     calculator.read(2, 2);
     expect(calculator.mul()).toBe(4);
 });
+
+// 2. Teil
 
 test('should sum more than two values', () => {
     calculator.read(1, 2, 3, 4);
