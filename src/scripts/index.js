@@ -1,5 +1,1 @@
-function min(a, b) {
-	return a < b ? a : b;
-}
-
-module.exports = min;
+console.log('Your code here.');
