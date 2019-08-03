@@ -16,7 +16,7 @@ module.exports = env => merge(common, {
   plugins: [
     new Webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('production'),
-      '__GITHUBTOKEN__': JSON.stringify(env.GITHUBTOKEN)
+      '__GITHUBTOKEN__': JSON.stringify(process.env.GITHUBTOKEN)
     }),
     new Webpack.optimize.ModuleConcatenationPlugin(),
     new MiniCssExtractPlugin({
