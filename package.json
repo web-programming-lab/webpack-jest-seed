@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Starter seed for javascript exercises",
   "scripts": {
-    "build": "webpack --config webpack/webpack.config.prod.js --env.GITHUBTOKEN=<<yourtoken>>  --colors",
+    "build": "webpack --config webpack/webpack.config.prod.js  --colors",
+    "build-local": "webpack --config webpack/webpack.config.prod.js --env.GITHUBTOKEN=<<yourtoken>>  --colors",
     "start": "webpack-dev-server --open --config webpack/webpack.config.dev.js",
     "test": "jest"
   },
