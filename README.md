@@ -24,9 +24,6 @@ npm start
 npm run build
 ```
 
-Via `npm run build` wird das [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) verwendet um das CSS in eine separate Datei auszulagern. Die CSS-Datei wird automatisch im ``head``vom `index.html` inkludiert.
-
-
 ### Features von diesem Seed
 
 * Vorkonfiguriertes Web Pack
