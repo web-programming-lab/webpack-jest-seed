@@ -1,32 +1,34 @@
-# Webpack & Jest Frontend Starterkit
+# Webpack & Jest Starterkit
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/wbkd/webpack-starter.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.com/web-programming-lab/webpack-jest-seed.svg?branch=master)](https://travis-ci.com/web-programming-lab/webpack-jest-seed)
 
-A lightweight foundation for your next webpack based frontend project.
+Seed-Projekt für den Kurs **Web Programming Lab**.
 
+Eine Basis für den Start in die Frontend-Entwicklung mit Webpack und Jest.
 
-### Installation
+### Installation der Abhängigkeiten
 
 ```
 npm install
 ```
 
-### Start Dev Server
+### Start Webpack Dev Server
 
 ```
 npm start
 ```
 
-### Build Prod Version
+### Build Assets 
 
 ```
 npm run build
 ```
 
-### Features:
+Via `npm run build` wird das [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) verwendet um das CSS in eine separate Datei auszulagern. Die CSS-Datei wird automatisch im ``head``vom `index.html` inkludiert.
 
-* ES6 Support via [babel](https://babeljs.io/) (v7)
+
+### Features von diesem Seed
+
+* Vorkonfiguriertes Web Pack
 * SASS Support via [sass-loader](https://github.com/jtangelder/sass-loader)
 * Linting via [eslint-loader](https://github.com/MoOx/eslint-loader)
-
-When you run `npm run build` we use the [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) to move the css to a separate file. The css file gets included in the head of the `index.html`.
