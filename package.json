@@ -1,7 +1,7 @@
 {
   "name": "webpack-jest-starter",
   "version": "1.0.0",
-  "description": "Starter seed for javascript exercises",
+  "description": "Starter webpack & jest seed for javascript exercises",
   "scripts": {
     "build": "webpack --config webpack/webpack.config.prod.js  --colors",
     "start": "webpack-dev-server --open --config webpack/webpack.config.dev.js",
@@ -9,17 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wbkd/webpack-starter.git"
+    "url": "git+https://github.com/web-programming-lab/webpack-jest-seed"
   },
   "keywords": [
     "webpack",
-    "startkit",
+    "jest",
     "frontend",
-    "es6",
     "javascript",
     "webdev"
   ],
-  "author": "webkid.io",
+  "author": "Web Programming Lab",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/wbkd/webpack-starter/issues"
@@ -41,7 +40,8 @@
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.2.1",
-    "webpack-merge": "^4.2.1"
+    "webpack-merge": "^4.2.1",
+    "mem": ">=4.0.0"
   },
   "dependencies": {
     "core-js": "^3.0.1",
