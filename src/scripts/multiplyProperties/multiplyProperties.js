@@ -26,4 +26,4 @@ if(menu.width === 800 && menu.height === 1200 && menu.newProperty === 20 && menu
 // Nach deem 2. Funktionsaufruf
 //menu = { width: 800, height: 1200, newProperty = 20, title: "Titel", justAnotherProperty: "Hallo" };
 
-// Your code here
+// Dein Code hier
