@@ -1,3 +1,4 @@
+
 // Vor dem Funktionsaufruf
 let menu = { width: 200, height: 300, title: "Titel" };
 
@@ -26,4 +27,6 @@ if(menu.width === 800 && menu.height === 1200 && menu.newProperty === 20 && menu
 // Nach deem 2. Funktionsaufruf
 //menu = { width: 800, height: 1200, newProperty = 20, title: "Titel", justAnotherProperty: "Hallo" };
 
-// Dein Code hier
+function multiProperties (menu) {
+   console.error('Implement me... 👩‍💻');
+}
