@@ -17,7 +17,7 @@ class ProfileSearch extends HTMLElement {
         this.refs = {
             form: this.shadowDom.querySelector('form'),
             input: this.shadowDom.querySelector('input')
-        }
+        };
 
         this.refs.form.addEventListener('submit', (e) => {
                 this.getData(this.refs.input.value);
@@ -29,13 +29,13 @@ class ProfileSearch extends HTMLElement {
     async getUserInfo(username) {
         let urlUserInfo = `${this.githubApi}/users/${username}`;
         let response = await fetch(urlUserInfo, this.authorizationHeader);
-        return await response.json();
+        return response.json();
     }
 
     async getFollowers(username) {
         let urlFollowers = `${this.githubApi}/users/${username}/followers`;
         let response = await fetch(urlFollowers, this.authorizationHeader);
-        return await response.json();
+        return response.json();
     }
 
     async getData(username) {
